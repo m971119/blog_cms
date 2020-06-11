@@ -35,7 +35,7 @@ DB_PASSWORD=
 php artisan migrate
 
 # run the seeder to create some roles
-php artisan db:seeder
+php artisan db:seed
 
 # run webpack and watch for changes
 npm run watch
